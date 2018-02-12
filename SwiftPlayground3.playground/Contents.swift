@@ -27,3 +27,16 @@ for name in fruitBasket {
 //print out item at index 1
 print( fruitBasket[1])
 print ( fruitBasket[0])
+
+
+
+//part 8, start of assignment #4
+
+var numbers: [String]
+
+numbers = ["0", "1", "3", "5", "17", "undefined"]
+for name in numbers {
+    
+    print("My favorite number is " + name)
+}
+
