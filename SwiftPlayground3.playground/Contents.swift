@@ -32,11 +32,17 @@ print ( fruitBasket[0])
 
 //part 8, start of assignment #4
 
-var numbers: [String]
+var numbers: [Int]
 
-numbers = ["0", "1", "3", "5", "17", "undefined"]
+numbers = [0, 1, 3, 5, 17, 35]
 for name in numbers {
     
-    print("My favorite number is " + name)
+    print("My favorite number is "  ,name)
 }
 
+let removed = numbers.remove(at: 2)
+print(numbers)
+
+numbers.append(2)
+
+print(numbers)
