@@ -33,6 +33,7 @@ print ( fruitBasket[0])
 //part 8, start of assignment #4
 
 var numbers: [Int]
+//how to translate intergers into a string
 
 numbers = [0, 1, 3, 5, 17, 35]
 for name in numbers {
